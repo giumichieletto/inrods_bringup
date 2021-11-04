@@ -1,9 +1,0 @@
-/home/giulia/ros2_ws/src/inrods_bringup/cmake-build-debug/CMakeFiles/install/strip.dir
-/home/giulia/ros2_ws/src/inrods_bringup/cmake-build-debug/CMakeFiles/install/local.dir
-/home/giulia/ros2_ws/src/inrods_bringup/cmake-build-debug/CMakeFiles/install.dir
-/home/giulia/ros2_ws/src/inrods_bringup/cmake-build-debug/CMakeFiles/list_install_components.dir
-/home/giulia/ros2_ws/src/inrods_bringup/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/giulia/ros2_ws/src/inrods_bringup/cmake-build-debug/CMakeFiles/uninstall.dir
-/home/giulia/ros2_ws/src/inrods_bringup/cmake-build-debug/CMakeFiles/inrods_bringup_uninstall.dir
-/home/giulia/ros2_ws/src/inrods_bringup/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/giulia/ros2_ws/src/inrods_bringup/cmake-build-debug/CMakeFiles/test.dir
