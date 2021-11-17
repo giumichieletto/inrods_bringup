@@ -187,12 +187,12 @@ local_costmap:
         origin_z: 0.0
         publish_voxel_map: true
         transform_tolerance: 0.2
-        mapping_mode: false
+        mapping_mode: true
         map_save_duration: 60.0
         observation_sources: pointcloud
         pointcloud:
           data_type: PointCloud2
-          topic: /devlab05_camera/depth/color/points
+          topic: /devlab02_camera/depth/color/points
           marking: true
           clearing: true
           obstacle_range: 3.0
@@ -201,7 +201,7 @@ local_costmap:
           expected_update_rate: 0.0
           observation_persistence: 0.0
           inf_is_valid: false
-          voxel_filter: false
+          voxel_filter: true
           clear_after_reading: true
           max_z: 7.0
           min_z: 0.1
@@ -248,8 +248,27 @@ global_costmap:
         transform_tolerance: 0.2
         mapping_mode: false
         map_save_duration: 60.0
-        observation_sources: pointcloud
-        pointcloud:
+        observation_sources: devlab04_camera devlab05_camera devlab07_camera devlab08_camera devlab10_camera
+        devlab04_camera:
+          data_type: PointCloud2
+          topic: /devlab04_camera/depth/color/points
+          marking: true
+          clearing: true
+          obstacle_range: 3.0
+          min_obstacle_height: 0.0
+          max_obstacle_height: 2.0
+          expected_update_rate: 0.0
+          observation_persistence: 0.0
+          inf_is_valid: false
+          voxel_filter: true
+          clear_after_reading: true
+          max_z: 7.0
+          min_z: 0.1
+          vertical_fov_angle: 0.8745
+          horizontal_fov_angle: 1.048
+          decay_acceleration: 15.0
+          model_type: 0
+        devlab05_camera:
           data_type: PointCloud2
           topic: /devlab05_camera/depth/color/points
           marking: true
@@ -260,7 +279,64 @@ global_costmap:
           expected_update_rate: 0.0
           observation_persistence: 0.0
           inf_is_valid: false
-          voxel_filter: false
+          voxel_filter: true
+          clear_after_reading: true
+          max_z: 7.0
+          min_z: 0.1
+          vertical_fov_angle: 0.8745
+          horizontal_fov_angle: 1.048
+          decay_acceleration: 15.0
+          model_type: 0
+        devlab07_camera:
+          data_type: PointCloud2
+          topic: /devlab07_camera/depth/color/points
+          marking: true
+          clearing: true
+          obstacle_range: 3.0
+          min_obstacle_height: 0.0
+          max_obstacle_height: 2.0
+          expected_update_rate: 0.0
+          observation_persistence: 0.0
+          inf_is_valid: false
+          voxel_filter: true
+          clear_after_reading: true
+          max_z: 7.0
+          min_z: 0.1
+          vertical_fov_angle: 0.8745
+          horizontal_fov_angle: 1.048
+          decay_acceleration: 15.0
+          model_type: 0
+        devlab08_camera:
+          data_type: PointCloud2
+          topic: /devlab08_camera/depth/color/points
+          marking: true
+          clearing: true
+          obstacle_range: 3.0
+          min_obstacle_height: 0.0
+          max_obstacle_height: 2.0
+          expected_update_rate: 0.0
+          observation_persistence: 0.0
+          inf_is_valid: false
+          voxel_filter: true
+          clear_after_reading: true
+          max_z: 7.0
+          min_z: 0.1
+          vertical_fov_angle: 0.8745
+          horizontal_fov_angle: 1.048
+          decay_acceleration: 15.0
+          model_type: 0
+        devlab10_camera:
+          data_type: PointCloud2
+          topic: /devlab10_camera/depth/color/points
+          marking: true
+          clearing: true
+          obstacle_range: 3.0
+          min_obstacle_height: 0.0
+          max_obstacle_height: 2.0
+          expected_update_rate: 0.0
+          observation_persistence: 0.0
+          inf_is_valid: false
+          voxel_filter: true
           clear_after_reading: true
           max_z: 7.0
           min_z: 0.1
