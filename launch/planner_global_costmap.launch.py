@@ -89,7 +89,7 @@ def generate_launch_description():
             output='screen',
             parameters=[configured_params],
             remappings=remappings,
-            arguments=['--ros-args', '--log-level', 'DEBUG']),
+            arguments=['--ros-args', '--log-level', 'INFO']),
 
         Node(
             package='nav2_lifecycle_manager',
