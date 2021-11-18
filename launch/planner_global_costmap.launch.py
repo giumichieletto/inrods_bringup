@@ -75,7 +75,7 @@ def generate_launch_description():
 
         DeclareLaunchArgument(
             'params_file',
-            default_value=os.path.join(inrods_bringup_dir, 'params', 'inrods_params.yaml'),
+            default_value=os.path.join(inrods_bringup_dir, 'params', 'inrods_laser_params.yaml'),
             description='Full path to the ROS2 parameters file to use'),
 
         DeclareLaunchArgument(
