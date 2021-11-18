@@ -213,33 +213,33 @@ global_costmap:
       obstacle_layer:
         plugin: "nav2_costmap_2d::ObstacleLayer"
         enabled: True
-        observation_sources: camera04_scan camera05_scan camera07_scan camera08_scan camera10_scan
-        camera04_scan:
-          topic: /camera04_scan
+        observation_sources: devlab04_scan devlab05_scan devlab07_scan devlab08_scan devlab10_scan
+        devlab04_scan:
+          topic: /devlab04_scan
           max_obstacle_height: 2.0
           clearing: True
           marking: True
           data_type: "LaserScan"
-        camera05_scan:
-          topic: /camera05_scan
+        devlab05_scan:
+          topic: /devlab05_scan
           max_obstacle_height: 2.0
           clearing: True
           marking: True
           data_type: "LaserScan"
-        camera07_scan:
-          topic: /camera07_scan
+        devlab07_scan:
+          topic: /devlab07_scan
           max_obstacle_height: 2.0
           clearing: True
           marking: True
           data_type: "LaserScan"
-        camera08_scan:
-          topic: /camera08_scan
+        devlab08_scan:
+          topic: /devlab08_scan
           max_obstacle_height: 2.0
           clearing: True
           marking: True
           data_type: "LaserScan"
-        camera10_scan:
-          topic: /camera10_scan
+        devlab10_scan:
+          topic: /devlab10_scan
           max_obstacle_height: 2.0
           clearing: True
           marking: True
