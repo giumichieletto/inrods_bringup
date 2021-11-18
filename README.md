@@ -37,10 +37,17 @@
 ```ros2 run kobuki_keyop kobuki_keyop_node --ros-args --remap cmd_vel:=/commands/velocity --remap motor_power:=/commands/motor_power```
 
 ### 1- Launch Navigation2
+
 ```ros2 launch nav2_bringup navigation_launch_kobuki.py use_sim_time:=False```
+
 2- Launch SLAM
+
 ```ros2 launch slam_toolbox online_async_launch.py use_sim_time:=False```
+
 // Display the current tf tree
+
 ```ros2 run tf2_tools view_frames.py```
+
 3- Use Static Map
+
 ```ros2 launch kobuki_node kobuki_launch.py```
